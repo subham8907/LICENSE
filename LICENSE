@@ -1,0 +1,432 @@
+File-Level Copyleft License (FLCL)
+                         Version 1.0, November 2026
+
+   PREAMBLE
+
+   The File-Level Copyleft License is designed to keep the source code
+   of a work open while leaving everything around it free.
+
+   Its copyleft applies one file at a time. The files that make up the
+   Work, and every modified version of them, stay under this License
+   whenever their source form is shared. No one may take that source
+   and redistribute it under narrower terms.
+
+   Your own separate files stay your own. Combining, linking, compiling,
+   or packaging your files with the Work does not bring them under this
+   License, and you may license them, and any larger work, as you choose.
+
+   You may also distribute compiled or other Object forms under terms of
+   your choice. This License does not require you to publish source code.
+   It requires only that source, once shared, remains under this License.
+
+   Contributors grant a patent license alongside the copyright license,
+   so that users of the Work are protected from patent claims by those
+   who contributed to it.
+
+   Mistakes made in good faith should be fixed, not punished. Breaking
+   this License does not end your rights under it. You will have the
+   chance to cure a first violation, and people who received the Work
+   from you keep their rights regardless.
+
+   This Preamble explains the purpose of this License. It is not part of
+   the Terms and Conditions, and where the two differ, the Terms and
+   Conditions control.
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 10 of this
+      document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+          Illustration: A C source file "parser.c", a Markdown file from
+          which HTML documentation is generated, and a YAML configuration
+          file are each in Source form.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types. Object form includes,
+      without limitation, the following:
+
+          (i)   "Executable" form shall mean any Object form that is
+                intended to be run or executed by a machine, whether
+                directly or through an interpreter, virtual machine, or
+                other runtime environment, including but not limited to
+                machine code, compiled binaries, bytecode, and compiled
+                libraries or modules.
+
+          Illustrations:
+
+          (1) A compiled program ("app.exe" or an ELF binary), a shared
+              library (".so" or ".dll"), a Java ".jar" file containing
+              bytecode, a Python ".pyc" file, and a minified JavaScript
+              bundle are each in Executable form, and therefore also in
+              Object form.
+
+          (2) HTML pages or a PDF manual generated from documentation
+              source are in Object form but not in Executable form.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any file, whether in Source or Object
+      form, that is based on (or derived from) a file constituting the
+      Work, and in which editorial revisions, annotations, elaborations,
+      additions, deletions, or other modifications to the contents of
+      such file represent, as a whole, an original work of authorship.
+      Derivative Works shall also include any new file containing
+      copyrightable material copied or adapted from the Work or its
+      Derivative Works, to the extent that such material is protected by
+      copyright.
+
+      For the purposes of this License, Derivative Works shall be
+      determined on a file-by-file basis and shall not include separate
+      files that do not incorporate copyrightable material from the Work
+      or its Derivative Works, including files that merely link to, call,
+      or reference their interfaces without incorporating copyrightable
+      material from them.
+
+          Illustrations:
+
+          (1) You fix a bug in "parser.c", a file of the Work. Your
+              modified "parser.c" is a Derivative Work.
+
+          (2) You copy a function from "parser.c" into a new file,
+              "fastparse.c". "fastparse.c" is a Derivative Work, to the
+              extent the copied function is protected by copyright.
+
+          (3) You write a new file, "app.c", that includes the Work's
+              header "parser.h" and calls the functions declared in it,
+              but copies no code from the Work. "app.c" is not a
+              Derivative Work.
+
+          (4) You write a new file, "plugin.py", that imports a module of
+              the Work and extends its classes without copying their
+              code. "plugin.py" is not a Derivative Work.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright
+      owner or by an individual or Legal Entity authorized to submit on
+      behalf of the copyright owner. For the purposes of this definition,
+      "submitted" means any form of electronic, verbal, or written
+      communication sent to the Licensor or its representatives, including
+      but not limited to communication on electronic mailing lists, source
+      code control systems, and issue tracking systems that are managed
+      by, or on behalf of, the Licensor for the purpose of discussing and
+      improving the Work, but excluding communication that is
+      conspicuously marked or otherwise designated in writing by the
+      copyright owner as "Not a Contribution."
+
+          Illustration: A pull request submitted to the Work's official
+          repository is a Contribution. A patch that its author posts to
+          the project's mailing list marked "Not a Contribution" is not.
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+      "Larger Work" shall mean any work, whether in Source or Object form,
+      that combines the Work or its Derivative Works with other material
+      contained in a separate file or files that do not constitute
+      Derivative Works. Such separate files shall not become Derivative
+      Works merely by being combined, compiled, linked, packaged, or
+      distributed together with the Work or its Derivative Works as part
+      of a Larger Work.
+
+          Illustration: You build a product from the Work's "parser.c",
+          your own files "app.c" and "ui.c", and a third-party library,
+          and ship it as one installer or one compiled program. The
+          product is a Larger Work. "parser.c", whether modified or not,
+          remains under this License whenever its Source form is shared.
+          "app.c", "ui.c", the third-party library, and the product as a
+          whole may be under any terms You choose.
+
+      The Illustrations in this Section are examples only. They do not
+      limit or expand the definitions they accompany, and where an
+      Illustration and a definition differ, the definition controls.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, and distribute the Work and
+      such Derivative Works in Source or Object form, and to sublicense
+      the Object form under different terms as permitted by Section 4(f).
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have
+      made, use, offer to sell, sell, import, and otherwise transfer the
+      Work, where such license applies only to those patent claims
+      licensable by such Contributor that are necessarily infringed by
+      their Contribution(s) alone or by combination of their
+      Contribution(s) with the Work to which such Contribution(s) was
+      submitted. If You institute patent litigation against any entity
+      (including a cross-claim or counterclaim in a lawsuit) alleging that
+      the Work or a Contribution incorporated within the Work constitutes
+      direct or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate as
+      of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or Derivative
+          Works a copy of this License; and
+
+      (b) You must retain, in the Source form of the Work or any
+          Derivative Works that You distribute, all copyright, patent,
+          trademark, and attribution notices from the Source form of the
+          Work, excluding those notices that do not pertain to any part
+          of the Derivative Works; and
+
+      (c) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any copy of the Work or any Derivative Works
+          that You distribute must be accompanied by a readable copy of
+          the applicable attribution notices contained within such NOTICE
+          file, excluding those notices that do not pertain to any part of
+          the Derivative Works. Such notices may be reproduced in any
+          physical or electronic medium or format, including a NOTICE text
+          file, Source form, accompanying documentation, or a display
+          generated by the Derivative Works, provided that the notices are
+          reasonably accessible to recipients; and
+
+      (d) Except as permitted for Object form by subsection (f), You must
+          not replace this License or impose additional or conflicting
+          license restrictions on the Work or Derivative Works; and
+
+      (e) Source Form. If You distribute or make available the Source
+          form of the Work or any Derivative Works, You must do so only
+          under this License, whether separately or as part of a Larger
+          Work; when they are part of a Larger Work, this condition
+          applies only to the files constituting the Work or Derivative
+          Works, not to the Larger Work as a whole or to any other file in
+          it; and
+
+      (f) Object Form. You may distribute the Work or Derivative Works in
+          any Object form, including Executable form, under this License
+          or under different terms of Your choice. You are not required
+          to distribute, disclose, or make available the Source form of
+          the Work or Derivative Works when You distribute them in any
+          Object form, including Executable form. If You do distribute or
+          make available the Source form, whether alongside the Object
+          form or separately, that Source form is subject to subsection
+          (e), and the terms applying to the Object form must not limit
+          or alter the rights that recipients have in that Source form
+          under this License. For the avoidance of doubt, Executable form
+          is treated the same as every other Object form under this
+          License, and distributing Executable form creates no obligation
+          to make Source form available.
+
+      The contents of the NOTICE file are for informational purposes only
+      and do not modify the License. You may add Your own attribution
+      notices alongside or as an addendum to the notices from the Work,
+      provided that such additional notices cannot be construed as
+      modifying the License.
+
+      You may add Your own copyright notices to Your modifications.
+      Nothing in this Section prevents You from offering optional
+      support, warranties, or indemnities in accordance with Section 9.
+
+      For the avoidance of doubt, the conditions in this Section apply
+      only to files constituting the Work or Derivative Works thereof.
+      They do not extend to separate files that do not incorporate
+      copyrightable material from the Work or its Derivative Works, and
+      they do not extend to a Larger Work as a whole. You may license
+      such separate files, and any Larger Work as a whole, under terms of
+      Your choice, and You may distribute them together with the Work or
+      Derivative Works as part of a Larger Work. Those terms need not
+      reference, include, or be compatible with this License, except as
+      provided in the next sentence.
+
+      The only condition this License places on a Larger Work is the
+      following: You must not apply any terms of the Larger Work to the
+      files constituting the Work or Derivative Works in a way that
+      limits or restricts the rights that recipients have in those files
+      under this License. To the extent any terms of the Larger Work
+      purport to do so, those terms do not apply to those files, and
+      those files remain governed solely by this License. This condition
+      does not affect, and creates no obligations regarding, any other
+      file in the Larger Work.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement You may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing
+      the origin of the Work and reproducing the content of the NOTICE
+      file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this
+      License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of Your accepting any such warranty or additional liability.
+
+   10. Non-Compliance and Cure.
+
+      (a) No Termination. The licenses granted by this License do not
+          terminate because of any failure to comply with its terms and
+          conditions. Instead, any act of reproduction, preparation of
+          Derivative Works, public display, public performance, or
+          distribution of the Work or Derivative Works that does not
+          comply with this License is outside the scope of the licenses
+          granted by this License and shall be treated as infringement of
+          the rights of the applicable Contributors under applicable law.
+          Acts that comply with this License remain licensed. This
+          subsection does not affect the termination of patent licenses
+          provided in Section 3.
+
+      (b) Cure Period. If a Contributor notifies You in writing of a
+          failure to comply with this License, and this is the first time
+          You have received such notice from that Contributor with
+          respect to the Work, then that Contributor shall not bring any
+          claim or seek any remedy against You for that failure if You
+          cure it within thirty (30) days after Your receipt of the
+          notice.
+
+      (c) Cessation Without Notice. If You cease all non-compliance with
+          this License, a Contributor shall not bring any claim or seek
+          any remedy against You for that past non-compliance unless that
+          Contributor notifies You of it in writing within sixty (60) days
+          after You cease.
+
+      (d) Failure to Cure. If You do not cure a failure to comply within
+          the period stated in subsection (b), or if subsection (b) does
+          not apply because You have previously received notice from that
+          Contributor, then the non-compliant acts remain unlicensed and
+          that Contributor may pursue any remedy for infringement
+          available under applicable law, including for acts committed
+          before the notice. Curing after that period does not license
+          earlier non-compliant acts, but acts that comply with this
+          License from then on are licensed.
+
+      (e) Limitation Periods. All claims arising from non-compliance with
+          this License are subject to the statutes of limitation,
+          prescription periods, and other time limits of applicable law.
+          Except for the notice period in subsection (c), nothing in this
+          Section extends, shortens, suspends, or revives any such period,
+          and the notice and cure periods in this Section do not toll
+          them. No claim that is barred under applicable law becomes
+          available because of this Section.
+
+      (f) Downstream Recipients. Your failure to comply with this License
+          does not affect the rights of any person who received the Work
+          or Derivative Works from You, provided that person complies
+          with this License.
+
+      (g) Waiver. A Contributor may waive any infringement or failure to
+          comply with this License, past or ongoing, by written notice to
+          the person concerned. A waiver:
+
+          (i)   is effective only if the notice is verifiable as having
+                been made by that Contributor, or by a person authorized
+                to act on its behalf, under the rules of evidence of
+                applicable law (for example, a signed document or an
+                electronic signature or record that applicable law
+                accepts as authentic);
+
+          (ii)  binds only the Contributor that gives it, applies only
+                to that Contributor's rights, and does not waive the
+                rights of any other Contributor;
+
+          (iii) covers only the acts, persons, and period described in
+                the notice, and does not waive any later or different
+                infringement unless the notice expressly says so;
+
+          (iv)  is irrevocable as to the acts it covers, unless the
+                notice expressly states otherwise; and
+
+          (v)   does not modify this License or grant any rights beyond
+                those stated in the notice.
+
+      (h) Form of Notice. Any notice given under this Section, including
+          a notice under subsections (b) and (c), must be in writing and
+          verifiable in the manner described in subsection (g)(i).
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the File-Level Copyleft License to your work.
+
+      To apply the File-Level Copyleft License to your work, attach the
+      following boilerplate notice, with the fields enclosed by brackets
+      "[]" replaced with your own identifying information. (Don't include
+      the brackets!) The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a file
+      or class name and description of purpose be included on the same
+      "printed page" as the copyright notice for easier identification
+      within third-party archives.
+
+      Copyright [yyyy] [name of copyright owner]
+
+      Licensed under the File-Level Copyleft License (FLCL), Version 1.0
+      (the "License"); you may not use this file except in compliance
+      with the License. You may obtain a copy of the License in the
+      LICENSE file accompanying this work.
+
+      Unless required by applicable law or agreed to in writing, software
+      distributed under the License is distributed on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied. See the License for the specific language governing
+      permissions and limitations under the License.
