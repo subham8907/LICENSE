@@ -65,26 +65,13 @@
       "Object" form shall mean any form resulting from mechanical
       transformation or translation of a Source form, including but
       not limited to compiled object code, generated documentation,
-      and conversions to other media types. Object form includes,
-      without limitation, the following:
+      and conversions to other media types.
 
-          (i)   "Executable" form shall mean any Object form that is
-                intended to be run or executed by a machine, whether
-                directly or through an interpreter, virtual machine, or
-                other runtime environment, including but not limited to
-                machine code, compiled binaries, bytecode, and compiled
-                libraries or modules.
-
-          Illustrations:
-
-          (1) A compiled program ("app.exe" or an ELF binary), a shared
-              library (".so" or ".dll"), a Java ".jar" file containing
-              bytecode, a Python ".pyc" file, and a minified JavaScript
-              bundle are each in Executable form, and therefore also in
-              Object form.
-
-          (2) HTML pages or a PDF manual generated from documentation
-              source are in Object form but not in Executable form.
+          Illustration: A compiled program ("app.exe" or an ELF binary),
+          a shared library (".so" or ".dll"), a Java ".jar" file
+          containing bytecode, a Python ".pyc" file, a minified
+          JavaScript bundle, and HTML pages or a PDF manual generated
+          from documentation source are each in Object form.
 
       "Work" shall mean the work of authorship, whether in Source or
       Object form, made available under the License, as indicated by a
@@ -251,19 +238,17 @@
           it; and
 
       (f) Object Form. You may distribute the Work or Derivative Works in
-          any Object form, including Executable form, under this License
-          or under different terms of Your choice. You are not required
-          to distribute, disclose, or make available the Source form of
-          the Work or Derivative Works when You distribute them in any
-          Object form, including Executable form. If You do distribute or
+          any Object form under this License or under different terms of
+          Your choice. You are not required to distribute, disclose, or
+          make available the Source form of the Work or Derivative Works
+          when You distribute them in Object form. If You do distribute or
           make available the Source form, whether alongside the Object
           form or separately, that Source form is subject to subsection
           (e), and the terms applying to the Object form must not limit
           or alter the rights that recipients have in that Source form
-          under this License. For the avoidance of doubt, Executable form
-          is treated the same as every other Object form under this
-          License, and distributing Executable form creates no obligation
-          to make Source form available.
+          under this License. For the avoidance of doubt, distributing
+          the Work or Derivative Works in any Object form creates no
+          obligation to make Source form available.
 
       The contents of the NOTICE file are for informational purposes only
       and do not modify the License. You may add Your own attribution
