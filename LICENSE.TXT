@@ -1,4 +1,4 @@
-File Copyleft Public License (FCPL)
+                 File Copyleft Public License (FCPL)
                          Version 1.0, November 2026
 
    PREAMBLE
@@ -9,7 +9,8 @@ File Copyleft Public License (FCPL)
    Its copyleft applies one file at a time. The files that make up the
    Work, and every modified version of them, stay under this License
    whenever their source form is shared. No one may take that source
-   and redistribute it under narrower terms.
+   and redistribute it under narrower terms, except under the GNU
+   licenses where an author has allowed it, as described below.
 
    Your own separate files stay your own. Combining, linking, compiling,
    or packaging your files with the Work does not bring them under this
@@ -20,14 +21,19 @@ File Copyleft Public License (FCPL)
    source code. It requires only that source, once shared, remains under
    this License. An author may mark files to require more: if you
    distribute a marked file in Object form, you must also offer its
-   source to your recipients for at least one year.
+   source to your recipients for at least one year. Your own separate
+   files are not affected.
 
    An author may also choose to make files compatible with the GNU
    General Public License and its related licenses, by marking them.
-   When a marked file is combined with software
-   under those licenses, you may distribute it under those licenses as
-   well, and the people who receive it may use either one. Files that
-   are not marked carry no such permission.
+   When a marked file is combined with software under those licenses,
+   you may distribute it under those licenses as well, and the people
+   who receive it may use either one. Files that are not marked carry
+   no such permission.
+
+   Markings, once given, cannot be removed, and new files contributed
+   to a project follow the project-wide markings in effect when they
+   are contributed, unless their authors say otherwise.
 
    Contributors grant a patent license alongside the copyright license,
    so that users of the Work are protected from patent claims by those
@@ -37,6 +43,11 @@ File Copyleft Public License (FCPL)
    this License does not end your rights under it. You will have the
    chance to cure a first violation, and people who received the Work
    from you keep their rights regardless.
+
+   The File Copyleft Public License succeeds the File-Level Copyleft
+   License (FLCL), Version 1.0. Files licensed under the FLCL remain
+   under the FLCL unless their Licensors choose to license them under
+   this License.
 
    This Preamble explains the purpose of this License. It is not part of
    the Terms and Conditions, and where the two differ, the Terms and
@@ -75,7 +86,9 @@ File Copyleft Public License (FCPL)
       "Object" form shall mean any form resulting from mechanical
       transformation or translation of a Source form, including but
       not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+      and conversions to other media types. A form that is the preferred
+      form for making modifications is Source form, even if it resulted
+      from such a transformation or translation.
 
           Illustration: A compiled program ("app.exe" or an ELF binary),
           a shared library (".so" or ".dll"), a Java ".jar" file
@@ -129,6 +142,13 @@ File Copyleft Public License (FCPL)
               the Work and extends its classes without copying their
               code. "plugin.py" is not a Derivative Work.
 
+          (5) You translate "parser.c" into Rust, by hand or with a tool,
+              producing "parser.rs", and maintain "parser.rs" from then
+              on. To the extent "parser.rs" carries over copyrightable
+              material from "parser.c", it is a Derivative Work. Because
+              it is the form You use to make modifications, it is in
+              Source form, even though it resulted from a translation.
+
       "Contribution" shall mean any work of authorship, including
       the original version of the Work and any modifications or additions
       to that Work or Derivative Works thereof, that is intentionally
@@ -177,29 +197,36 @@ File Copyleft Public License (FCPL)
       Work, that either (i) the file bears a notice, attached by a
       Licensor of that file, stating that it is "Compatible With
       Secondary Licenses", or (ii) the NOTICE file accompanying the Work
-      includes a statement, placed there by a Licensor, that the file,
-      identified by name, or all files of the Work governed by this
-      License, are Compatible With Secondary Licenses (examples are
-      provided in the Appendix below). A file that does not meet this
+      includes a statement, placed there by a Licensor of that file,
+      that the file, identified by name, or all files of the Work
+      governed by this License, are Compatible With Secondary Licenses
+      (examples are provided in the Appendix below). A Contribution
+      submitted subject to such a statement under Section 5 is treated
+      as covered by that statement. A file that does not meet this
       condition is not Compatible With Secondary Licenses. A Derivative
       Work is Compatible With Secondary Licenses only if every file of
       the Work or of its Derivative Works from which it is derived is
-      Compatible With Secondary Licenses. No other person may attach or
-      include such a notice or statement, and no person may remove it
-      from a file or NOTICE file that bears it.
+      Compatible With Secondary Licenses. Only a Licensor of a file may
+      attach or include such a notice or statement for that file. Once
+      attached or included, it may not be removed by any person, and
+      its removal does not end its effect for that file or its
+      Derivative Works.
 
       "Source Availability Notice" shall mean, for a file of the Work,
       either (i) a notice attached to that file by a Licensor of that
       file stating that Section 4(h) of this License applies to it, or
-      (ii) a statement included by a Licensor in the NOTICE file that
-      accompanies the Work stating that Section 4(h) applies to that
-      file, identified by name, or to all files of the Work governed by
-      this License (examples are provided in the Appendix below). A
-      Derivative Work of a file that is subject to a Source Availability
-      Notice is subject to that notice as well. No person other than a
-      Licensor of the file may attach or include a Source Availability
-      Notice, and removal of a Source Availability Notice by any other
-      person does not end its effect.
+      (ii) a statement included in the NOTICE file that accompanies the
+      Work, placed there by a Licensor of that file, stating that
+      Section 4(h) applies to that file, identified by name, or to all
+      files of the Work governed by this License (examples are provided
+      in the Appendix below). A Contribution submitted subject to such a
+      statement under Section 5 is treated as covered by that statement.
+      A Derivative Work of a file that is subject to a Source
+      Availability Notice is subject to that notice as well. Only a
+      Licensor of a file may attach or include a Source Availability
+      Notice for that file. Once attached or included, it may not be
+      removed by any person, and its removal does not end its effect for
+      that file or its Derivative Works.
 
       The Illustrations in this License are examples only. They do not
       limit or expand the provisions they accompany, and where an
@@ -291,15 +318,14 @@ File Copyleft Public License (FCPL)
           Your choice. Except as provided in subsection (h), You are not
           required to distribute, disclose, or make available the Source
           form of the Work or Derivative Works when You distribute them
-          in Object form. If You do distribute or
-          make available the Source form, whether alongside the Object
-          form or separately, that Source form is subject to subsection
-          (e), and the terms applying to the Object form must not limit
-          or alter the rights that recipients have in that Source form
-          under this License. For the avoidance of doubt, except as
-          provided in subsection (h), distributing the Work or
-          Derivative Works in any Object form creates no obligation to
-          make Source form available; and
+          in Object form. If You do distribute or make available the
+          Source form, whether alongside the Object form or separately,
+          that Source form is subject to subsection (e), and the terms
+          applying to the Object form must not limit or alter the rights
+          that recipients have in that Source form under this License.
+          For the avoidance of doubt, except as provided in subsection
+          (h), distributing the Work or Derivative Works in any Object
+          form creates no obligation to make Source form available; and
 
       (g) Secondary Licenses. This subsection applies only to files
           constituting the Work or Derivative Works that are Compatible
@@ -308,10 +334,10 @@ File Copyleft Public License (FCPL)
           by a Secondary License, You may additionally distribute, in
           Source or Object form, as part of that Larger Work and under
           the terms of that Secondary License, each such file.
-          Recipients of the Larger Work may then, at
-          their option, use, modify, and further distribute each such
-          file under the terms of either this License or that Secondary
-          License. When You do so:
+          Recipients of the Larger Work may then, at their option, use,
+          modify, and further distribute each such file under the terms
+          of either this License or that Secondary License. When You do
+          so:
 
           (i)   You must continue to meet subsections (a) through (c)
                 for those files, so that recipients are informed of this
@@ -331,26 +357,25 @@ File Copyleft Public License (FCPL)
           distribute the Source form of the combined program. If
           "parser.c" bears a notice that it is "Compatible With
           Secondary Licenses," or the Work's NOTICE file says so, You
-          may distribute it under that
-          license as part of the program, and anyone who receives it may
-          redistribute "parser.c" under either that license or this
-          License. If neither is the case, this subsection gives You no
-          such permission, and whether You may distribute the combined
-          program at all depends on the terms of the other program's
-          license.
+          may distribute it under that license as part of the program,
+          and anyone who receives it may redistribute "parser.c" under
+          either that license or this License. If neither is the case,
+          this subsection gives You no such permission, and whether You
+          may distribute the combined program at all depends on the
+          terms of the other program's license.
 
       (h) Source Availability. This subsection applies only to files
           constituting the Work or Derivative Works that are subject to
-          a Source Availability Notice. If You distribute any such file
-          in Object form, whether under this License, under different
-          terms as permitted by subsection (f), or under a Secondary
-          License as permitted by subsection (g), You must either
-          accompany the Object form with the corresponding Source form
-          of that file, or accompany it with a written offer, given in
-          any medium or manner, valid for at least one (1) year from the
-          date You distribute that Object form, stating that the
-          recipient can obtain a copy of that Source form from You. In
-          either case:
+          a Source Availability Notice. If You
+          distribute any such file in Object form, whether under this
+          License, under different terms as permitted by subsection (f),
+          or under a Secondary License as permitted by subsection (g),
+          You must either accompany the Object form with the
+          corresponding Source form of that file, or accompany it with a
+          written offer, given in any medium or manner, valid for at
+          least one (1) year from the date You distribute that Object
+          form, stating that the recipient can obtain a copy of that
+          Source form from You. In either case:
 
           (i)   the recipient must be able to obtain that Source form by
                 reasonable means in a timely manner, at a charge no more
@@ -377,12 +402,12 @@ File Copyleft Public License (FCPL)
           "app.c".
 
       The contents of the NOTICE file are for informational purposes only
-      and do not modify the License, except that a Source Availability
-      Notice included in it has the effect given in subsection (h). You
-      may add Your own attribution
-      notices alongside or as an addendum to the notices from the Work,
-      provided that such additional notices cannot be construed as
-      modifying the License.
+      and do not modify the License, except that a statement included in
+      it under the definition of "Compatible With Secondary Licenses" or
+      "Source Availability Notice" has the effect this License gives it.
+      You may add Your own attribution notices alongside or as an
+      addendum to the notices from the Work, provided that such
+      additional notices cannot be construed as modifying the License.
 
       You may add Your own copyright notices to Your modifications.
       Nothing in this Section prevents You from offering optional
@@ -415,10 +440,22 @@ File Copyleft Public License (FCPL)
    5. Submission of Contributions. Unless You explicitly state otherwise,
       any Contribution intentionally submitted for inclusion in the Work
       by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement You may have executed
-      with Licensor regarding such Contributions.
+      this License, without any additional terms or conditions. If, when
+      You submit a Contribution, the NOTICE file accompanying the Work
+      contains a statement under the definition of "Compatible With
+      Secondary Licenses" or "Source Availability Notice" that applies
+      to all files of the Work governed by this License, Your
+      Contribution is submitted subject to that statement, unless You
+      explicitly state otherwise when You submit it. Notwithstanding the
+      above, nothing herein shall supersede or modify the terms of any
+      separate license agreement You may have executed with Licensor
+      regarding such Contributions.
+
+          Illustration: The Work's NOTICE file states that all files of
+          the Work are Compatible With Secondary Licenses. You submit a
+          pull request adding a new file, "cache.c". Unless You state
+          otherwise when You submit it, "cache.c" is Compatible With
+          Secondary Licenses once it is incorporated in the Work.
 
    6. Trademarks. This License does not grant permission to use the trade
       names, trademarks, service marks, or product names of the Licensor,
@@ -567,6 +604,8 @@ File Copyleft Public License (FCPL)
       implied. See the License for the specific language governing
       permissions and limitations under the License.
 
+      Compatibility with Secondary Licenses
+
       Files are not compatible with Secondary Licenses by default. If you
       want a file to be distributable under a Secondary License as
       permitted by Section 4(g), either attach the following notice to
@@ -575,7 +614,7 @@ File Copyleft Public License (FCPL)
       This Source form is "Compatible With Secondary Licenses", as
       defined by the File Copyleft Public License (FCPL), Version 1.0.
 
-      or by including one of the following statements in the NOTICE file
+      or include one of the following statements in the NOTICE file
       that accompanies the Work:
 
       The following files are "Compatible With Secondary Licenses", as
@@ -586,19 +625,18 @@ File Copyleft Public License (FCPL)
       (FCPL), Version 1.0, are "Compatible With Secondary Licenses", as
       defined by that License.
 
-      Only a Licensor of the file may add the notice or statement, and
-      once given, it cannot be removed (see the definition of
-      "Compatible With Secondary Licenses" in Section 1).
+      Source Availability
 
-      If you want recipients of the Object form of a file to be able to
-      obtain its Source form, as provided in Section 4(h), either attach
-      the following notice to that file:
+      Section 4(h) (Source Availability) does not apply to files by
+      default. If you want recipients of the Object form of a file to be
+      able to obtain its Source form, as provided in Section 4(h),
+      either attach the following notice to that file:
 
       Section 4(h) (Source Availability) of the File Copyleft Public
       License (FCPL), Version 1.0, applies to this file.
 
       or include one of the following statements in the NOTICE file that
-      accompanies the Work, naming the files concerned:
+      accompanies the Work:
 
       Section 4(h) (Source Availability) of the File Copyleft Public
       License (FCPL), Version 1.0, applies to the following files:
@@ -607,3 +645,13 @@ File Copyleft Public License (FCPL)
       Section 4(h) (Source Availability) of the File Copyleft Public
       License (FCPL), Version 1.0, applies to all files of this Work
       governed by that License.
+
+      Rules for all markings
+
+      Only a Licensor of a file may add a notice or statement for that
+      file, and once given, it cannot be removed (see the definitions of
+      "Compatible With Secondary Licenses" and "Source Availability
+      Notice" in Section 1). A statement in the NOTICE file that
+      covers all files of the Work also covers new Contributions
+      submitted while it is present, unless their authors state
+      otherwise when submitting them (see Section 5).
