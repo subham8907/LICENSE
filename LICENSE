@@ -1,4 +1,4 @@
-File-Level Copyleft License (FLCL)
+                     File-Level Copyleft License (FLCL)
                          Version 1.0, November 2026
 
    PREAMBLE
@@ -96,11 +96,10 @@ File-Level Copyleft License (FLCL)
       Work, and in which editorial revisions, annotations, elaborations,
       additions, deletions, or other modifications to the contents of
       such file represent, as a whole, an original work of authorship.
-      A file of the Work whose modifications do not meet this standard
-      remains part of the Work. Derivative Works shall also include any
-      new file containing copyrightable material copied or adapted from
-      the Work or its Derivative Works, to the extent that such material
-      is protected by copyright.
+      Derivative Works shall also include any new file containing
+      copyrightable material copied or adapted from the Work or its
+      Derivative Works, to the extent that such material is protected by
+      copyright.
 
       For the purposes of this License, Derivative Works shall be
       determined on a file-by-file basis and shall not include separate
@@ -111,13 +110,8 @@ File-Level Copyleft License (FLCL)
 
           Illustrations:
 
-          (1) You fix a bug in "parser.c", a file of the Work, by
-              rewriting part of a function. Your modified "parser.c" is
-              a Derivative Work. If You only correct a spelling error in
-              a comment, Your change is not an original work of
-              authorship, and the modified "parser.c" remains part of
-              the Work. Either way, it stays under this License whenever
-              its Source form is shared.
+          (1) You fix a bug in "parser.c", a file of the Work. Your
+              modified "parser.c" is a Derivative Work.
 
           (2) You copy a function from "parser.c" into a new file,
               "fastparse.c". "fastparse.c" is a Derivative Work, to the
@@ -171,9 +165,9 @@ File-Level Copyleft License (FLCL)
           "app.c", "ui.c", the third-party library, and the product as a
           whole may be under any terms You choose.
 
-      The Illustrations in this License are examples only. They do not
-      limit or expand the provisions they accompany, and where an
-      Illustration and a provision differ, the provision controls.
+      The Illustrations in this Section are examples only. They do not
+      limit or expand the definitions they accompany, and where an
+      Illustration and a definition differ, the definition controls.
 
    2. Grant of Copyright License. Subject to the terms and conditions of
       this License, each Contributor hereby grants to You a perpetual,
@@ -205,21 +199,7 @@ File-Level Copyleft License (FLCL)
       meet the following conditions:
 
       (a) You must give any other recipients of the Work or Derivative
-          Works a copy of this License, whether You distribute them in
-          Source or Object form. When You distribute Object form under
-          different terms as permitted by subsection (f), the copy of
-          this License informs recipients of the terms that govern the
-          Source form of the Work and Derivative Works. It does not
-          replace or alter the terms You chose for the Object form, and
-          it does not require You to make Source form available; and
-
-          Illustration: You ship a compiled program built from a
-          modified "parser.c" under Your own end-user license
-          agreement. You must include a copy of this License with the
-          program, for example as a LICENSE file in the installer or in
-          the program's documentation. Your end-user license agreement
-          still governs the compiled program, and You need not publish
-          the modified "parser.c".
+          Works a copy of this License; and
 
       (b) You must retain, in the Source form of the Work or any
           Derivative Works that You distribute, all copyright, patent,
