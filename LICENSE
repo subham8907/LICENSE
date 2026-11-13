@@ -1,4 +1,4 @@
-                    File-Level Copyleft License (FLCL)
+                     File-Level Copyleft License (FLCL)
                          Version 1.0, November 2026
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
@@ -273,13 +273,33 @@
           license the work in any other way, but it does not invalidate
           such permission if You have separately received it.
 
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement You may have executed
-      with Licensor regarding such Contributions.
+   5. Submission of Contributions.
+
+      (a) General Rule. Any Contribution that You intentionally submit
+          to the Licensor for inclusion in the Work is made under the
+          terms and conditions of this License, without any additional
+          terms or conditions, except as provided in this Section.
+
+      (b) Other Provisions. Sections 4(j), 4(k), and 4(l) and Appendix
+          B apply to Your Contributions as to any Derivative Works that
+          You distribute. In particular, Your modifications to files of
+          the Work or its Derivative Works are always under this License.
+
+      (c) Separate Files. For any part of a Contribution that is a
+          separate file that does not incorporate copyrightable
+          material from the Work or its Derivative Works, You may
+          explicitly state that it is submitted under other terms. In
+          that case, the licenses granted under Sections 2 and 3 apply
+          to that file only to the extent those other terms allow.
+
+      (d) Non-Compliance. The licenses that You grant as a Contributor
+          under Sections 2 and 3 for Your Contribution are not affected
+          by any failure by You to comply with this License, including a
+          failure in the act of submitting it.
+
+      (e) Separate Agreements. Nothing in this License supersedes or
+          modifies the terms of any separate agreement that You have
+          executed with the Licensor regarding Your Contributions.
 
    6. Trademarks. This License does not grant permission to use the trade
       names, trademarks, service marks, or product names of the Licensor,
@@ -355,9 +375,7 @@
           Contributor, then the non-compliant acts remain unlicensed and
           that Contributor may pursue any remedy for infringement
           available under applicable law, including for acts committed
-          before the notice. Curing after that period does not license
-          earlier non-compliant acts, but acts that comply with this
-          License from then on are licensed.
+          before the notice.
 
       (e) Limitation Periods. All claims arising from non-compliance
           with this License are subject to the statutes of limitation,
@@ -370,9 +388,27 @@
       (f) Downstream Recipients. Your failure to comply with this License
           does not affect the rights of any person who received the Work
           or Derivative Works from You, provided that person complies
-          with this License.
+          with this License. This includes any modifications and
+          Derivative Works that You made or distributed in an act that
+          does not comply with this License. Your modifications in them
+          are licensed under this License, as Section 4(j) requires, to
+          each such person and to every person who later receives them,
+          directly or indirectly, despite Your failure to comply.
 
-      (g) Waiver. A Contributor may waive any infringement or failure to
+      (g) Your Non-Compliant Acts. An act that does not comply with this
+          License, including making modifications or preparing
+          Derivative Works, is not licensed to You, and the
+          modifications and Derivative Works resulting from it give You
+          no rights under this License, until You cure that failure.
+          Once You cure it, Your acts from then on with respect
+          to those modifications and Derivative Works, including using,
+          reproducing, modifying, and distributing them, are licensed,
+          subject to the terms and conditions of this License. Coming
+          into compliance does not license the earlier non-compliant
+          act, which remains infringement, subject to subsections (b),
+          (c), and (h).
+
+      (h) Waiver. A Contributor may waive any infringement or failure to
           comply with this License, past or ongoing, by written notice to
           the person concerned. A waiver:
 
@@ -397,25 +433,37 @@
           (v)   does not modify this License or grant any rights beyond
                 those stated in the notice.
 
-      (h) Form of Notice. Any notice given under this Section must be in
+      (i) Form of Notice. Any notice given under this Section must be in
           writing and verifiable in the manner described in subsection
-          (g)(i).
+          (h)(i).
 
-   11. Litigation. Any litigation relating to this License may be
-      brought only in the courts of a jurisdiction where the defendant
-      maintains its principal place of business, and such litigation
-      shall be governed by the laws of that jurisdiction, without
-      reference to its conflict-of-law provisions. Nothing in this
-      Section shall prevent a party's ability to bring cross-claims or
-      counter-claims.
+   11. Litigation.
 
-      Nothing in this Section shall limit or prevent any Contributor
-      from seeking or obtaining any remedy for infringement of its
-      copyright or other rights in the Work, in any jurisdiction where
-      the infringement occurs or where infringing copies are made
-      available. A claim of infringement may be brought before the
-      courts or authorities of any such jurisdiction and governed by its
-      laws.
+      (a) Claims Under This License. Except as provided in subsection
+          (b), any litigation relating to this License may be brought
+          only in the courts of a jurisdiction where the defendant
+          maintains its principal place of business or, if the
+          defendant is an individual without one, where the defendant
+          habitually resides. Such litigation shall be governed by the
+          laws of that jurisdiction, without reference to its
+          conflict-of-law provisions.
+
+      (b) Infringement Claims. Subsection (a) does not limit or prevent
+          any Contributor from seeking or obtaining any remedy for
+          infringement of its copyright or other rights in the Work,
+          including infringement that results from a failure to comply
+          with this License. A claim of infringement may be brought
+          before the courts described in subsection (a), or before the
+          courts or authorities of any jurisdiction where the
+          infringement occurs or where infringing copies are made
+          available. Wherever it is brought, the claim, including the
+          meaning of this License and whether an act was licensed under
+          it, is governed by the laws of the jurisdiction in which it is
+          brought.
+
+      (c) Cross-Claims and Counter-Claims. Nothing in this Section
+          prevents a party from bringing cross-claims or counter-claims
+          in any litigation to which it is a party.
 
    12. Miscellaneous.
 
@@ -438,6 +486,53 @@
           of the Work, whether or not that use is licensed. An individual
           who exercises rights under this License on behalf of a Legal
           Entity represents that they are authorized to do so.
+
+          Notwithstanding Section 10, if it is impossible for You to
+          comply with any of the terms of this License with respect to
+          some or all of the Work or Derivative Works due to statute,
+          regulation, or an order of a court or other governmental
+          authority, then You must: (i) comply with the terms of this
+          License to the maximum extent possible; and (ii) describe the
+          limitations and the code they affect, as provided below.
+          Except to the extent prohibited by statute, regulation, or
+          such an order, such description must be sufficiently detailed
+          for a recipient of ordinary skill to be able to understand it.
+
+          The description must accompany each distribution of the Work
+          or Derivative Works that You make after the impossibility
+          arises. It may be given in any medium or format, including in
+          the file itself, a text file or other separate file of any
+          name or format, Source form, accompanying documentation, or a
+          display generated by the Work or Derivative Works, provided
+          that it is distributed with, or otherwise accompanies, the
+          Work or Derivative Works to which it relates and is reasonably
+          accessible to recipients.
+
+          This subsection also applies to copies of the Work or
+          Derivative Works that You distributed before the impossibility
+          arose. If an obligation of this License continues to apply to
+          such an earlier distribution, including an obligation under
+          Appendix B to keep the Source form available, and it later
+          becomes impossible for You to fulfill that obligation due to
+          statute, regulation, or such an order, You are excused from
+          that obligation to the extent of the impossibility, provided
+          that You comply with clause (i). You are not required to
+          provide the description with that earlier distribution, but
+          You must provide it as stated above with each distribution
+          that You make after the impossibility arises.
+
+          To the extent, and for as long as, compliance is impossible as
+          described in this subsection, and provided that You meet the
+          requirements of this subsection, Your failure to comply is not
+          a failure to comply with this License for the purposes of
+          Section 10, and the acts concerned remain within the scope of
+          the licenses granted by this License. When the impossibility
+          ends, the terms it affected apply again from that time on, to
+          the extent they still apply.
+
+      (e) Fair Use. This License is not intended to limit any rights You
+          have under applicable copyright doctrines of fair use, fair
+          dealing, or other equivalents.
 
    END OF TERMS AND CONDITIONS
 
@@ -493,16 +588,12 @@
 
           The period of three (3) years under paragraph (ii) applies
           separately to each individual or Legal Entity that
-          distributes an Option File in Object form, and runs from that
+          distributes an Option File in Object form, including one that
+          received it in Object form from another, and runs from that
           individual's or Legal Entity's own last distribution of that
-          Object form. Any individual or Legal Entity that receives an
-          Option File in Object form and distributes it further has the
-          same obligation under this subsection, for the same period of
-          three (3) years. The expiry of the period that applies to one
-          individual or Legal Entity does not end or shorten the period
-          that applies to any other. You may not satisfy this
-          subsection by relying on another person's offer under
-          paragraph (ii).
+          Object form. The expiry of one such period does not end or
+          shorten any other. You may not satisfy this subsection by
+          relying on another person's offer under paragraph (ii).
 
           You may choose the terms that apply to the Object form,
           provided that those terms comply with this subsection and do
